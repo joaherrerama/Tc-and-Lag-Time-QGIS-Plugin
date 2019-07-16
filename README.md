@@ -2,10 +2,11 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 <html><head><meta name="qrichtext" content="1" /></head><body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:15pt; font-weight:600;">Time of concentration and lag time plugin</span><span style=" font-size:8pt;"> </span></p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">  </span></p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">In a hydrological modelling framework, this plugin applies different empirical equations to estimate </span><span style=" font-size:8pt; font-style:italic;">time of concentration </span><span style=" font-size:8pt;">and </span><span style=" font-size:8pt; font-style:italic;">lag time</span><span style=" font-size:8pt;">. The plugin works from a shape file provided by the user, typically representing basins. The user assigns the corresponding attributes to the variables required for calculus of such times. Then, based on the provided attributes, the plugin exclusively enables the computable equations in both </span><span style=" font-size:8pt; font-style:italic;">time of concentration</span><span style=" font-size:8pt;"> and </span><span style=" font-size:8pt; font-style:italic;">lag time</span><span style=" font-size:8pt;">, depending on the selected parameters. The table below presents the required parameters for calculating the different equations, also shown below. </span></p>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:10pt; font-weight:600; font-style:italic;">Time of concentration: </span></p>
+  
+## Time of concentration:
+
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">it is the time required for surface runoff from the farthest point of the basin to reach the outlet point is considered, i.e., the time at which the entire hydrographic unit contributes to the flow. For calculation, you can use different formulas that relate to other parameters typical of the basin. For the estimation of time of concentration, it is recommended to use several empirical equations available in the scientific literature, it is considered appropriate to include at least five estimators (SCS, The Soil Conservation Service, 2010). </span></p>
   
  <p align="center">
@@ -94,7 +95,9 @@
 <p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:10pt; color:#000000;">Height Delta (maximum dimension - minimum dimension)</span><span style=" font-size:8pt;"> </span></p></td></tr></table>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">  </span></p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">  </span></p>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:10pt; font-weight:600; font-style:italic;">Lag time: </span></p>
+
+## Lag time:
+
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">it corresponds to the time between precipitation and the maximum flow of the hydrographic unit, representing the rain delay time (Velez &amp; Botero, 2011).This variable depends mainly on the length and unevenness of the channel, in addition, on the geomorphological characteristics of the basin and the magnitude of runoff. </span></p>
 <p align="center" style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;"><br /></p>
 <p align="center">
@@ -140,7 +143,9 @@
 <td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
 <p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:10pt; color:#000000;">Permeability coefficient</span><span style=" font-size:8pt;"> </span></p></td></tr></table>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">  </span></p>
-<p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:10pt; font-weight:600; font-style:italic;">Results:</span><span style=" font-size:8pt;"> </span></p>
+
+## Results:
+
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">with the purpose of make the results more readable and provide more significant data visualization, the plugin adds the resulted layer to the QGIS view considering a default thematic classification by applying five categories and labelling the most significant method for the estimation of time of concentration and Lag time. The selection of the most significant method is relied on statisticians as mean, standard deviation and trimean. </span></p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">The classification is based on Natural Breaks (Jenks) and shows the times of concentration calculated. This way, a shape file classified into five intervals showing the minimum and highest concentration is added to the view after processing the selected methods. </span><a name="Imagen 1"></a><span style=" font-size:8pt;"> </span></p>
 <p align="center">

@@ -20,7 +20,7 @@
 <td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
 <p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:10pt; font-style:italic; color:#000000;">WILLIAMS</span><span style=" font-size:8pt;"> </span></p></td>
 <td style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
-<p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="./images/image001.png" width="64" height="26" /><span style=" font-size:8pt;"> </span></p></td>
+<p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="./images/clip_image001.png" width="64" height="26" /><span style=" font-size:8pt;"> </span></p></td>
 <td rowspan="8" style=" padding-left:0; padding-right:0; padding-top:0; padding-bottom:0;">
 <p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:10pt; color:#000000;">Basin Area</span><span style=" font-size:8pt;"> </span></p>
 <p align="center" style=" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-family:'Times New Roman,serif'; font-size:10pt; color:#000000;">Length of the main channel Average slope of the basin</span><span style=" font-size:8pt;"> </span></p></td></tr>

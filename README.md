@@ -1,9 +1,7 @@
 # Time of Concentration and Lag Time Plugin
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
-<html><head><meta name="qrichtext" content="1" /><style type="text/css">
-p, li { white-space: pre-wrap; }
-</style></head><body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+<html><head><meta name="qrichtext" content="1" /></head><body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:15pt; font-weight:600;">Time of concentration and lag time plugin</span><span style=" font-size:8pt;"> </span></p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">  </span></p>
 <p style=" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" font-size:8pt;">In a hydrological modelling framework, this plugin applies different empirical equations to estimate </span><span style=" font-size:8pt; font-style:italic;">time of concentration </span><span style=" font-size:8pt;">and </span><span style=" font-size:8pt; font-style:italic;">lag time</span><span style=" font-size:8pt;">. The plugin works from a shape file provided by the user, typically representing basins. The user assigns the corresponding attributes to the variables required for calculus of such times. Then, based on the provided attributes, the plugin exclusively enables the computable equations in both </span><span style=" font-size:8pt; font-style:italic;">time of concentration</span><span style=" font-size:8pt;"> and </span><span style=" font-size:8pt; font-style:italic;">lag time</span><span style=" font-size:8pt;">, depending on the selected parameters. The table below presents the required parameters for calculating the different equations, also shown below. </span></p>

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/Tc_Tlag" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
